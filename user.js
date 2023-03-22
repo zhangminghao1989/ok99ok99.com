@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         学达云教育-建造师继续教育-自动上课
 // @namespace    https://github.com/tankririri/ok99ok99.com
-// @version      1.8.2
+// @version      1.8.3
 // @description  自动提交和播放下一节
 // @license      GNU GPLv3
 // @match        https://*.ok99ok99.com/*
@@ -22,7 +22,7 @@ console.log("学达云教育-建造师继续教育-自动上课开始运行！")
 						alert("请进行微信验证，验证完成后手动刷新页面！");
 						console.log("请进行微信验证，验证完成后手动刷新页面！");
 					} else {
-						clearInterval(myval);
+						console.log("请进行微信验证，验证完成后手动刷新页面！");
 					}
 				} else {
 					if($("#divwxck").length == 1){
