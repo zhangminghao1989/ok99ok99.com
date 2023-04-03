@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name         学达云教育-建造师继续教育-自动上课
 // @namespace    https://github.com/tankririri/ok99ok99.com
-// @version      1.8.3
+// @version      1.8.4
 // @description  自动提交和播放下一节
 // @license      GNU GPLv3
 // @match        https://*.ok99ok99.com/*
+// @exclude      https://*.ok99ok99.com/stu/exam_v2_new.aspx*
 // @require      https://code.jquery.com/jquery-1.11.3.min.js
+
 
 // ==/UserScript==
 console.log("学达云教育-建造师继续教育-自动上课开始运行！");
