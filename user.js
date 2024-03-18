@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         学达云教育-建造师继续教育-自动上课
 // @namespace    https://github.com/zhangminghao1989/ok99ok99.com
-// @version      1.8.6
+// @version      1.9.0
 // @description  自动提交和播放下一节
 // @license      GNU GPLv3
 // @match        https://*.ok99ok99.com/*
@@ -42,7 +42,7 @@ console.log("学达云教育-建造师继续教育-自动上课开始运行！")
 							$(".ico_shipin2:first").click();
 						}
 						if($(".layui-layer-btn0").length == 1){
-							$(".layui-layer-btn0").click();
+							submitStudy(2);
 						}
 					} else {
 						clearInterval(myval);
